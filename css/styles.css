@@ -138,3 +138,17 @@ body {
 .lightbox__button:focus {
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+.prev {
+  position: absolute;
+  left: 1%;
+}
+
+.next {
+  position: absolute;
+  right: 1%;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}
